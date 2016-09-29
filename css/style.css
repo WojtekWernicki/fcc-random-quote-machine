@@ -1,0 +1,54 @@
+html, body {
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background-color: #555358;
+}
+
+#box {
+  width: 80%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  background-color: #C9DCB3;
+  color: #555358;
+}
+
+blockquote {
+  border: none;
+}
+
+blockquote footer {
+  text-align: right;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+#buttons a.btn {
+  border-radius: 0px;
+}
+
+#buttons a {
+  color: #FFFFFF;
+}
+
+#buttons #tweet {
+  background-color: #1DA1F2;
+}
+
+#buttons #link {
+  background-color: #7B7263;
+}
+
+#buttons #random {
+  background-color: #C6CA53;
+}

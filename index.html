@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Free Code Camp &ndash; Random Quote Machine</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&subset=latin-ext" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+   <div id="box">
+       <h1 class="text-center">Random quote for you:</h1>
+       <blockquote>
+           <p class="text-center" id="quoteText"></p>
+           <footer class="text-right" id="quoteAuthor"></footer>
+       </blockquote>
+       <div id="buttons">
+           <a class="btn" id="tweet">
+               <i class="fa fa-twitter" aria-hidden="true"></i> Tweet
+           </a>
+           <a class="btn" id="link">
+               <i class="fa fa-link" aria-hidden="true"></i> Link
+           </a>
+           <a class="btn" id="random">
+               <i class="fa fa-refresh" aria-hidden="true"></i> New Quote
+           </a>
+       </div>
+       <p class="text-center">
+           API provided by <a href="http://forismatic.com/en/api/" target="_blank">Forismatic.com</a>.
+       </p>
+       <p class="text-center">
+           Made with <i class="fa fa-heart" aria-hidden="true"></i> &amp; <i class="fa fa-coffee" aria-hidden="true"></i> by Wojtek Wernicki
+       </p>
+    </div>
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
